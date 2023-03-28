@@ -65,26 +65,25 @@ CreateThread(function()
         end)
     end
 	for i=1, #Config.K9Kennel, 1 do
-		exports[Config.ThirdEyeName]:AddBoxZone(Config.K9Kennel[i]..'K9Kennel', Config.K9Kennel[i], 3, 3, {
+		exports.ox_target:addBoxZone({
 			name = Config.K9Kennel[i]..'K9Kennel',
+			coords = {x = Config.K9Kennel[i].x, y = Config.K9Kennel[i].y, z = Config.K9Kennel[i].z},
+			dimensions = {width = 3.0, length = 3.0},
 			heading = 151.91,
-			debugPoly = false,
 			minZ = Config.K9Kennel[i].z - 1.5,
 			maxZ = Config.K9Kennel[i].z + 1.5,
-		},
-		{
+			debugPoly = false,
 			options = {
 				{
-					icon = "fas fa-hand-point-up",
-					label = "Get/Return K9",
-					action = function(entity)
-						TriggerEvent('angelicxs-k9script:jobchecker')
-					end,
+					event = 'angelicxs-k9script:jobchecker',
+					icon = 'fas fa-hand-point-up',
+					label = 'Get/Return K9',
 				},
 			},
-			distance = 1.5 
+			distance = 1.5,
 		})
 	end
+	
 
 end)
 
