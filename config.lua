@@ -10,7 +10,7 @@ Config.AttackCommand = 47 							-- G - When aiming at a person, press this butt
 Config.FollowCommand = 23 							-- F - Press this button to have the dog follow you
 Config.StayCommand = 29 							-- B - Press this button to have the dog stay
 
-Config.ThirdEyeName = 'qb-target'					-- Name of the third eye system you use
+Config.ThirdEyeName = 'ox_target'					-- Name of the third eye system you use
 Config.K9Kennel = {									-- Location of where police can pull out a K9
 	vector3(453.94, -990.0, 30.69),
 }
