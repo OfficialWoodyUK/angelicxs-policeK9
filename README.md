@@ -1,6 +1,6 @@
 # policeK9
 
-Lite PoliceK9 script for FiveM Please check out other scripts by me on CFX (https://forum.cfx.re/u/angelicxs/activity/topics) or my paid stuff on Tebex (https://angelicxs.tebex.io/)
+Lite PoliceK9 script for FiveM Please check out other scripts by me on CFX (https://forum.cfx.re/u/angelicxs/activity/topics) or my paid stuff on Tebex (https://angelicxs.tebex.io/) -- OX Target Working!
 
 For ESX or QBCore.
 
